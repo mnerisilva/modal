@@ -14,7 +14,8 @@ botao.addEventListener('click', function(e){
 mask.addEventListener('click', function(e){
     setTimeout(() => { 
         mask.classList.remove('down');
-    }, 500);       
+    }, 300);
+    modal.style.transform = 'translate(17px, -700px)';       
     mask.classList.remove('show');
 });
 

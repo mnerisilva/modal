@@ -14,7 +14,7 @@ body {
     height: 1px;
     background-color: rgba(61, 57, 57, 0.527);
     z-index: 2;
-    transition: opacity .5s linear;
+    transition: opacity .3s linear;
     opacity: 0;
 }
 
@@ -43,14 +43,15 @@ button {
 .modal {
     position: absolute;
     margin: auto auto;
-    width: 500px;
+    max-width: 500px;
     height: 70vh;
+    min-width: 330px;
     border: solid thin #ddd;
     background-color: #fdfdfd;
     box-shadow: 2px 3px rgb(97 85 85 / 7%);
     z-index: 4;
     padding: 15px;
-    transition: transform .5s linear;
+    transition: transform .3s linear;
     transform: translate(17px, -700px);
 }
 
