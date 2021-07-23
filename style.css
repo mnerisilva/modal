@@ -5,7 +5,9 @@
 }
 
 body {
-    /*user-select: none;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .mask {
@@ -27,7 +29,7 @@ button {
 
 
 .show {
-    transition: opacity .5s linear;
+    transition: opacity .3s linear;
     opacity: 1; 
 }
 
@@ -39,6 +41,7 @@ button {
     display: flex;
     align-items: cente;
     justify-content: center;
+    width: 100%;
 }
 .modal {
     position: absolute;
@@ -53,18 +56,4 @@ button {
     padding: 15px;
     transition: transform .3s linear;
     transform: translate(17px, -700px);
-}
-
-.modal-2 {
-    position: absolute;
-    margin: auto auto;
-    width: 500px;
-    height: 70vh;
-    border: solid thin #ddd;
-    background-color: #fdfdfd;
-    box-shadow: 2px 3px rgb(97 85 85 / 7%);
-    z-index: 4;
-    padding: 15px;
-    /*transition: transform .5s linear;
-    transform: translate(17px, -700px);*/
 }
