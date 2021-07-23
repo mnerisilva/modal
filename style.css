@@ -53,3 +53,17 @@ button {
     transition: transform .5s linear;
     transform: translate(17px, -700px);
 }
+
+.modal-2 {
+    position: absolute;
+    margin: auto auto;
+    width: 500px;
+    height: 70vh;
+    border: solid thin #ddd;
+    background-color: #fdfdfd;
+    box-shadow: 2px 3px rgb(97 85 85 / 7%);
+    z-index: 4;
+    padding: 15px;
+    /*transition: transform .5s linear;
+    transform: translate(17px, -700px);*/
+}
